@@ -18,6 +18,23 @@ body{
     position: relative;
 }
 
+.mobile{
+    height: 100vh;
+    background-color: $color-red;
+    color: $color-white;
+    font-size: 70px;
+    display: none;
+    overflow-y: scroll;
+}
+@media screen and (max-width: 950px) {
+    .mobile{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+
 .header{
     position: sticky;
     top: 0;
@@ -986,7 +1003,7 @@ body{
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .header{
         &_menu{
             &-link{

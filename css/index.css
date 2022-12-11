@@ -5,6 +5,20 @@ body {
   overflow-x: hidden;
   position: relative; }
 
+.mobile {
+  height: 100vh;
+  background-color: #e70058;
+  color: #fff;
+  font-size: 70px;
+  display: none;
+  overflow-y: scroll; }
+
+@media screen and (max-width: 950px) {
+  .mobile {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0; } }
 .header {
   position: sticky;
   top: 0;
@@ -782,7 +796,7 @@ body {
       .footer_bottom-link:hover {
         opacity: 0.5; }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .header_menu-link {
     display: none; }
 
