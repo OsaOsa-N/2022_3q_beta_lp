@@ -743,7 +743,18 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 14px; }
+  font-size: 14px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; }
+  .footer_box {
+    width: calc(100% - 100px);
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
   .footer_logo {
     width: 20%; }
     .footer_logo > img {

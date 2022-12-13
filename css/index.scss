@@ -938,6 +938,18 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 14px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    &_box{
+        width: calc(100% - 100px);
+        max-width: $width-max;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
     &_logo{
         width: 20%;
         > img{
