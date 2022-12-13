@@ -654,7 +654,7 @@ body{
 .part3{
     &.analysis{
         position: relative;
-        overflow-y: hidden;
+        overflow: hidden;
         &::before{
             content: "";
             background-color: $color-main;
@@ -670,7 +670,6 @@ body{
     }
     &.improve{
         position: relative;
-        // overflow-y: hidden;
         &::before{
             content: "";
             background-color: $color-sub;
